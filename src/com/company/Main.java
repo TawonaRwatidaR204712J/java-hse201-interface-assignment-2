@@ -26,7 +26,7 @@ public class Main {
     public static void main(String[] args) {
 
         // instantiating class
-	    Calculator cal = new Calculator();
+	Calculator cal = new Calculator();
         cal.add(10,20);
 
     }
