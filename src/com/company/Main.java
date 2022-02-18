@@ -1,15 +1,5 @@
 package com.company;
 
-// declaring addition interface
-interface Addition{
-
-    // initializing sum field
-    int sum = 0;
-
-    //declaring add method with no body
-    void add(int num1, int num2);
-}
-
 class Calculator implements Addition{
 
     // implementing method from interface
@@ -20,6 +10,17 @@ class Calculator implements Addition{
         System.out.println(num1 + " + " + num2 + " = " + sum);
     }
 }
+
+// declaring addition interface
+interface Addition{
+
+    // initializing sum field
+    int sum = 0;
+
+    //declaring add method with no body
+    void add(int num1, int num2);
+}
+
 
 public class Main {
 
